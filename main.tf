@@ -1,12 +1,12 @@
 terraform {
-   cloud {
-   organization = "blake-test"         # 생성한 ORG 이름 지정
-   hostname     = "app.terraform.io"      # default
-
-   workspaces {
-     name = "terraform-aws-collaboration" # 없으면 생성됨
-   }
- }
+#   cloud {
+#   organization = "blake-test"         # 생성한 ORG 이름 지정
+#   hostname     = "app.terraform.io"      # default
+#
+#   workspaces {
+#     name = "terraform-aws-collaboration" # 없으면 생성됨
+#   }
+# }
   required_providers {
     aws = {
       source  = "hashicorp/aws"
