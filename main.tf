@@ -19,7 +19,7 @@ provider "aws" {
   region = var.region
   default_tags {
     tags = {
-      Project = "HCP Terraform-4"
+      Project = "HCP Terraform-5"
     }
   }
 }
